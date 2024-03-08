@@ -219,6 +219,7 @@ class _Indicator extends StatelessWidget {
           if (status != null)
             Text(
               status!,
+              maxLines: 3,
               style: EasyLoadingTheme.textStyle ??
                   TextStyle(
                     color: EasyLoadingTheme.textColor,
